@@ -1,0 +1,124 @@
+*{ /* * use for select all element */
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{ /* dat dau * chi vao dang class */
+    background : #1d1d1d; /* mau xam duong code */
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+nav{
+    display: flex;  
+    align-items: center;
+    padding: 20px 8%; /* do day */
+}
+
+nav .logo
+{
+    width: 160px;
+    cursor: pointer; /* chi vao Icon logo  */
+
+}
+
+nav ul {
+
+    flex: 1;
+    text-align:  right;
+
+}
+
+nav ul li {
+
+    display: inline-block; /* Keo may cai chu ra Hang ngang thay vi doc */
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+table {
+    margin-top: 2%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 35.49%;
+    
+  }
+  
+  td, th {
+    border: 0px solid #5e5e5e;
+    text-align: left;
+    padding: 32px;
+    background-color: #e6e6e6;
+    color: black;
+  }
+
+  .Text { vertical-align: top; }
+  .Text2 { font-weight: normal;} /* chinh phong chu thuong */
+  .Text3 { font-weight: 700;} 
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.qc{
+    float: right; /* float anh bat cu dau */
+    width: 295px;
+    display: block;
+    margin-top: 2.15%;
+    margin-left: auto;
+    margin-right: 19.5%;
+
+}
+.thethao
+{
+    float: right;
+    margin-right: -10%;
+    margin-top: 3%;
+}
+
+  .putin {
+    width: 475px;
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: 20%;
+  }
+
+  .vertical {
+    margin-top: 23%;
+    border-left: 1px solid black;
+    height: 100px;
+    position:absolute;
+    left: 35%;
+}
+
+.vertical2 {
+    margin-top: 15%;
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 100px;
+    position:absolute;
+    left: 27%;
+}
